@@ -1,0 +1,36 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #0D1D49;
+}
+
+.logotype-block {
+    position: relative;
+    left: 40vw;
+    display: flex;
+    top: 200px;
+    align-items: center;
+    width: 15vw;
+}
+
+.logo-img {
+    width: 5vw;
+    position: relative;
+    left: 5vw;
+    transition: 0.4s;
+    z-index: 999;
+}
+
+.logotype-block:hover .logo-img {
+    left: 0vw;
+    transition: 0.4s;
+}
+
+.logo-text {
+    font-size: 2.5vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #0D1D49;
+    position: relative;
+    left: 20px;
+}
